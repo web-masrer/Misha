@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(142, 140, 143);
+  margin: -15px 1px 0px 1px;
+  padding: 0px 0px 0px 0px;
+}
+.container {
+  margin: 0px 0px 0px 0px;
+  background-color: rgb(174, 104, 240);
+}
+
+.header {
+  text-align: center;
+  min-height: 325px;
+}
+.nomer {
+  color: blue;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.main {
+  text-align: center;
+}
+.f-s-w {
+  color: white;
+}
+.garant {
+  color: red;
+  animation-name: garantA;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes garantA {
+  0% {
+  }
+
+  100% {
+    font-size: 50px;
+    color: rgb(0, 68, 255);
+  }
+}
+
+.reklama {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3px;
+}
+.map {
+  color: #45ce39;
+  font-size: 28px;
+  text-align: center;
+}
+.name {
+  text-align: center;
+}
